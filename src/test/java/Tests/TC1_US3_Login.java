@@ -15,7 +15,7 @@ public class TC1_US3_Login extends TestBase {
 
         concortHotelPage.ilkLoginButton.click();
 
-        concortHotelPage.userNameBox.sendKeys(ConfigReader.getProperty("CHQAValidusername"));
+        concortHotelPage.userNameBox.sendKeys(ConfigReader.getProperty("CHQAValidUsername"));
 
         concortHotelPage.passwordBox.sendKeys(ConfigReader.getProperty("CHQAValidPassword"));
         concortHotelPage.ikinciLoginButton.click();
