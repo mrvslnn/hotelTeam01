@@ -34,4 +34,28 @@ public class ConcortHotelPage {
     @FindBy(xpath="//span[text()='Try again please']")
     public WebElement tryAgain;
 
+    //## ilker  ##
+
+    @FindBy(linkText = "Log in")
+    public WebElement ilkLoginButton;
+
+    @FindBy(xpath = "//input[@id='UserName']")
+    public WebElement userNameBox;
+
+    @FindBy(xpath = "//input[@id='Password']")
+    public WebElement passwordBox;
+
+    @FindBy(xpath = "//*[@id=\"btnSubmit\"]")
+    public WebElement ikinciLoginButton;
+
+    @FindBy(xpath = "//span[text()='ListOfUsers']")
+    public WebElement basariligGirisYaziElementi;
+
+    @FindBy(xpath = "//*[@id=\"divMessageResult\"]/div/span")
+    public WebElement negativeResultMessage;
+
+    //  #### ilker    ####
+
+
+
 }
