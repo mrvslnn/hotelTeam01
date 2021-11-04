@@ -1,18 +1,18 @@
-package Tests;
+package Tests.TC_US3;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.QAConcortPage;
+import pages.US3_Page.QAConcortPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class TC7_US3_Phone_Negative {
+public class TC5_US3_Name_Negative {
 
     @Test
-    public void test7() throws InterruptedException {
+    public void test5() throws InterruptedException {
 
         QAConcortPage qaConcortPage = new QAConcortPage();
         qaConcortPage.concortHotelLogin();
@@ -25,11 +25,11 @@ public class TC7_US3_Phone_Negative {
         actions.click(qaConcortPage.codeBox).
                 sendKeys(ConfigReader.getProperty("CHQACodebox")).
                 sendKeys(Keys.TAB).
-                sendKeys(ConfigReader.getProperty("CHQANamebox")).
+                sendKeys(ConfigReader.getProperty("CHQAInvalidNamebox")).
                 sendKeys(Keys.TAB).
                 sendKeys(ConfigReader.getProperty("CHQAAdressbox")).
                 sendKeys(Keys.TAB).
-                sendKeys(ConfigReader.getProperty("CHQAInvalidPhonebox")).
+                sendKeys(ConfigReader.getProperty("CHQAPhonebox")).
                 sendKeys(Keys.TAB).
                 sendKeys(ConfigReader.getProperty("CHQAEmailbox")).
                 sendKeys(Keys.PAGE_DOWN).perform();

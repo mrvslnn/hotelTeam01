@@ -1,11 +1,11 @@
-package Tests;
+package Tests.TC_US3;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.QAConcortPage;
+import pages.US3_Page.QAConcortPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 

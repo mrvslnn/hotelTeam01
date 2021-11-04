@@ -1,17 +1,17 @@
-package Tests;
+package Tests.TC_US3;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.QAConcortPage;
+import pages.US3_Page.QAConcortPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class TC4_US3_Code_Negative {
+public class TC9_US3_Dropdown_Negative {
+
     @Test
-    public void test4() throws InterruptedException {
+    public void test9() throws InterruptedException {
 
         QAConcortPage qaConcortPage = new QAConcortPage();
         qaConcortPage.concortHotelLogin();
@@ -22,7 +22,7 @@ public class TC4_US3_Code_Negative {
         Actions actions = new Actions(Driver.getDriver());
 
         actions.click(qaConcortPage.codeBox).
-                sendKeys(ConfigReader.getProperty("CHQAInvalidCodebox")).
+                sendKeys(ConfigReader.getProperty("CHQACodebox")).
                 sendKeys(Keys.TAB).
                 sendKeys(ConfigReader.getProperty("CHQANamebox")).
                 sendKeys(Keys.TAB).
@@ -34,8 +34,8 @@ public class TC4_US3_Code_Negative {
                 sendKeys(Keys.PAGE_DOWN).perform();
 
 
-        Select select = new Select(qaConcortPage.selectIDGroup);
-        select.selectByIndex(1);
+        //Select select = new Select(qaConcortPage.selectIDGroup);
+        //select.selectByIndex(1);
 
         qaConcortPage.saveButton.click();
 
@@ -48,6 +48,6 @@ public class TC4_US3_Code_Negative {
 
         Driver.closeDriver();
 
-
     }
+
 }
