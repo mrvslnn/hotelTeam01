@@ -1,7 +1,7 @@
-package Tests;
+package Tests.TC_US3;
 
 import org.testng.annotations.Test;
-import pages.QAConcortPage;
+import pages.US3_Page.QAConcortPage;
 
 public class TC2_US3_Buttons {
 

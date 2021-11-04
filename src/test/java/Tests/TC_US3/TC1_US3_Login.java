@@ -1,4 +1,4 @@
-package Tests;
+package Tests.TC_US3;
 
 import org.testng.annotations.Test;
 import pages.ConcortHotelPage;
