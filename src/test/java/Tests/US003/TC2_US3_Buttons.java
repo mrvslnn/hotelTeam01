@@ -1,4 +1,4 @@
-package Tests.TC_US3;
+package Tests.US003;
 
 import org.testng.annotations.Test;
 import pages.US3_Page.QAConcortPage;
