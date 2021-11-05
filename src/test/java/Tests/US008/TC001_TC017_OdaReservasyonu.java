@@ -67,6 +67,6 @@ public class TC001_TC017_OdaReservasyonu {
 
         Assert.assertEquals(actualYazi,expectedYazi,ConfigReader.getProperty("Rezervasyon yapilamamistir!"));
 
-        //Driver.closeDriver();
+        Driver.closeDriver();
     }
 }
