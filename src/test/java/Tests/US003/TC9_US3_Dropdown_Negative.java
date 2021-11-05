@@ -1,18 +1,17 @@
-package Tests.TC_US3;
+package Tests.US003;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.US3_Page.QAConcortPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class TC8_US3_Email_Negative {
+public class TC9_US3_Dropdown_Negative {
 
     @Test
-    public void test8() throws InterruptedException {
+    public void test9() throws InterruptedException {
 
         QAConcortPage qaConcortPage = new QAConcortPage();
         qaConcortPage.concortHotelLogin();
@@ -31,12 +30,12 @@ public class TC8_US3_Email_Negative {
                 sendKeys(Keys.TAB).
                 sendKeys(ConfigReader.getProperty("CHQAPhonebox")).
                 sendKeys(Keys.TAB).
-                sendKeys(ConfigReader.getProperty("CHQAInvalidEmailbox")).
+                sendKeys(ConfigReader.getProperty("CHQAEmailbox")).
                 sendKeys(Keys.PAGE_DOWN).perform();
 
 
-        Select select = new Select(qaConcortPage.selectIDGroup);
-        select.selectByIndex(1);
+        //Select select = new Select(qaConcortPage.selectIDGroup);
+        //select.selectByIndex(1);
 
         qaConcortPage.saveButton.click();
 
