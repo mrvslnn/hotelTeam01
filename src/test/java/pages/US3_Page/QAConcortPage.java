@@ -63,7 +63,7 @@ public class QAConcortPage {
         qaConcortPage.ilkLoginButton.click();
         qaConcortPage.userNameBox.sendKeys(ConfigReader.getProperty("CHQAValidUsername"));
         qaConcortPage.passwordBox.sendKeys(ConfigReader.getProperty("CHQAValidPassword"));
-        qaConcortPage.ikinciLoginButton.click();
+        qaConcortPage.ikinciLoginButton.click(); // 1. TC De kullanilacak
 
     }
 
@@ -72,7 +72,8 @@ public class QAConcortPage {
         qaConcortPage.hotelManagementButton.click();
         qaConcortPage.hotelListButton.click();
         qaConcortPage.addHotelButton.click();
-    }  //1. ve 2. test casede kullanilacak
+    }  // 2. TC de kullanilacak
+
 
 
 
