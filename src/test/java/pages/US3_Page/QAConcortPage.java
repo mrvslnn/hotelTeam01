@@ -72,7 +72,7 @@ public class QAConcortPage {
         qaConcortPage.hotelManagementButton.click();
         qaConcortPage.hotelListButton.click();
         qaConcortPage.addHotelButton.click();
-    }
+    }  //1. ve 2. test casede kullanilacak
 
 
 
