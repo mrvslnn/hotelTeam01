@@ -15,8 +15,8 @@ public class TC3_US3_NewHotelCreate {
     public void test3() throws InterruptedException {
 
         QAConcortPage qaConcortPage=new QAConcortPage();
-        qaConcortPage.concortHotelLogin(); // Birinci test methodunu kullandim
-        qaConcortPage.buttonsClick();  // Ikinci test methodunu kullnadim
+        qaConcortPage.concortHotelLogin(); // Birinci test methodunu kullandim...
+        qaConcortPage.buttonsClick();  // Ikinci test methodunu kullnadim...
 
         Thread.sleep(2000);
 
