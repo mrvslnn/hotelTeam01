@@ -55,7 +55,7 @@ public class QAConcortPage {
 
     @FindBy (xpath = "/html/body/div[5]/div/div/div[2]/button")
     public WebElement okButton;
-    
+
     public void concortHotelLogin (){
         Driver.getDriver().get(ConfigReader.getProperty("CHQAUrl"));
         QAConcortPage qaConcortPage=new QAConcortPage();
