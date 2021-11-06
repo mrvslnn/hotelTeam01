@@ -52,7 +52,18 @@ public class Driver {
         return driver;
     }
 
+        public static void closeDriver() {
 
+<<<<<<< HEAD
+            if (driver != null) {
+                driver.close();
+                driver = null;
+            }
+        }
+    }
+
+
+=======
 
     public static void closeDriver(){
 
@@ -62,3 +73,4 @@ public class Driver {
         }
     }
 }
+>>>>>>> master
