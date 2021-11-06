@@ -1,7 +1,7 @@
 package tests.US005;
 
 import org.testng.annotations.Test;
-import pages.US005.US_005_QAConcortHotelPage;
+import pages.US005_Page.US_005_QAConcortHotelPage;
 
 public class TC1_US5_CreateHotel {
     @Test
