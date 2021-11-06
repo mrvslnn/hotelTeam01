@@ -5,32 +5,32 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-    public class ConfigReader {
-        private static Properties properties ;
+public class ConfigReader {
+    private static Properties properties ;
 
 
-        static{
+    static{
 
-            String path="Configuration.properties";
-            try {
-                FileInputStream fileInputStream = new FileInputStream(path);
-                properties = new Properties();
-                properties.load(fileInputStream);
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
+        String path="Configuration.properties";
+        try {
+            FileInputStream fileInputStream = new FileInputStream(path);
+            properties = new Properties();
+            properties.load(fileInputStream);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
-
-        public static String getProperty(String key){
-
-            return properties.getProperty(key);
-
-        }
-
 
     }
+
+
+    public static String getProperty(String key){
+
+        return properties.getProperty(key);
+
+    }
+
+
+}
 
