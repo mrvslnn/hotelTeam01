@@ -1,10 +1,8 @@
-package US_007;
+package Tests.US007;
 
-import US_007_Pages.US_007_Pages;
+import pages.US007_Page.US_007_Pages;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.ConfigReader;
 import utilities.Driver;

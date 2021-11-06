@@ -5,7 +5,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.US005.US_005_QAConcortHotelPage;
+import pages.US005_Page.US_005_QAConcortHotelPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 

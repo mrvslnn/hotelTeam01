@@ -1,4 +1,4 @@
-package pages.US2_Page;
+package pages.US002_Page;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
