@@ -1,7 +1,7 @@
-package Tests.TC_US2;
+package Tests.US002;
 
 import org.testng.annotations.Test;
-import pages.US2_Page.ConcortHotelPage;
+import pages.US002_Page.ConcortHotelPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 

@@ -1,7 +1,7 @@
 package tests.US01;
 
 import org.testng.annotations.Test;
-import pages.US01Page.US01Page;
+import pages.US001_Page.US01Page;
 import utilities.ConfigReader;
 import utilities.Driver;
 
