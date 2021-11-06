@@ -54,7 +54,7 @@ public class Driver {
 
         public static void closeDriver() {
 
-<<<<<<< HEAD
+
             if (driver != null) {
                 driver.close();
                 driver = null;
@@ -63,14 +63,7 @@ public class Driver {
     }
 
 
-=======
 
-    public static void closeDriver(){
 
-        if(driver != null){
-            driver.close();
-            driver = null;
-        }
-    }
-}
->>>>>>> master
+
+
