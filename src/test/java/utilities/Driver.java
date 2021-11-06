@@ -53,12 +53,13 @@ import org.openqa.selenium.safari.SafariDriver;
         }
 
 
+        public static void closeDriver() {
 
-        public static void closeDriver(){
-
-            if(driver != null){
+            if (driver != null) {
                 driver.close();
                 driver = null;
             }
         }
-}
+    }
+
+
