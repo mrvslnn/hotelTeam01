@@ -20,5 +20,6 @@ public class US01_Test1 {
         loginPage.password.sendKeys(ConfigReader.getProperty("CHQAValidPassword"));
         loginPage.submit.click();
         System.out.println(loginPage.başarılı.getText());
+        Driver.closeDriver();
     }
 }

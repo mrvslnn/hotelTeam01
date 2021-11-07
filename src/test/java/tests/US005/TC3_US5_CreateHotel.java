@@ -48,6 +48,6 @@ public class TC3_US5_CreateHotel {
         //10. OK butonuna tıklayın.
         US005QaConcortHotelPage.addHotelAllertOk.click();
 
-        //Driver.closeDriver();
+        Driver.closeDriver();
     }
 }

@@ -15,6 +15,7 @@ public class TC01_US0009_SiteyeGiris {
         qaConcortPage.userNameBox.sendKeys(ConfigReader.getProperty("CHQAValidUsername"));
         qaConcortPage.passwordBox.sendKeys(ConfigReader.getProperty("CHQAValidPassword"));
         qaConcortPage.ikinciLoginButton.click();
+        Driver.closeDriver();
 
     }
 

@@ -20,6 +20,7 @@ public class TC002 {
         qaConcortPage.hotelRooms.click();
         qaConcortPage.roomCode.sendKeys("12284");
         qaConcortPage.roomSearch.click();
+        Driver.closeDriver();
 
     }
 }

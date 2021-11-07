@@ -1,17 +1,25 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="E2E Tests">
     <test name="tests">
-        <packages>
-            <package name="tests.US001"></package>
-            <package name="tests.US002"></package>
-            <package name="tests.US003"></package>
-            <package name="tests.US004"></package>
-            <package name="tests.US005"></package>
-            <package name="tests.US006"></package>
-            <package name="tests.US007"></package>
-            <package name="tests.US008"></package>
-            <package name="tests.US009"></package>
-            <package name="tests.US010"></package>
-        </packages>
+
+       <classes>
+           <class name="Tests.US001.US01_Test1"></class>
+           <class name="Tests.US002.NegativeTest"></class>
+           <class name="Tests.US003.TC3_US3_NewHotelCreate"></class>
+           <class name="Tests.US004.TC001"></class>
+           <class name="Tests.US004.TC006"></class>
+           <class name="Tests.US005.TC3_US5_CreateHotel"></class>
+           <class name="Tests.US006.TC001"></class>
+           <class name="Tests.US006.TC002"></class>
+           <class name="Tests.US006.TC005"></class>
+           <class name="Tests.US007.US_007_TumTCler"></class>
+           <class name="Tests.US008.TC001_TC017_OdaReservasyonu"></class>
+           <class name="Tests.US009.TC03_US0009_YeniOtelGirisi"></class>
+           <class name="Tests.US010.TC_01_US10"></class>
+           <class name="Tests.US010.TC_04_US10"></class>
+
+       </classes>
+
+
     </test>
 </suite>

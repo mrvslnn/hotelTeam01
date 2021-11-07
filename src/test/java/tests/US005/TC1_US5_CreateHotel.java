@@ -2,6 +2,7 @@ package Tests.US005;
 
 import org.testng.annotations.Test;
 import pages.US005_Page.US_005_QAConcortHotelPage;
+import utilities.Driver;
 
 public class TC1_US5_CreateHotel {
     @Test
@@ -9,7 +10,7 @@ public class TC1_US5_CreateHotel {
 
         US_005_QAConcortHotelPage US005QaConcortHotelPage = new US_005_QAConcortHotelPage();
         US005QaConcortHotelPage.ConcortHotelLogin();
-
+        Driver.closeDriver();
 
     }
 }
