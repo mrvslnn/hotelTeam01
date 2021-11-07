@@ -25,7 +25,7 @@ public class TC_02_US10 {
         concortHotelPage.ListofHotelRoomsSearchButonu.click();
         Thread.sleep(2000);
         concortHotelPage.ListofHotelRoomsClearButonu.click();
-
+        Driver.closeDriver();
 
     }
 }

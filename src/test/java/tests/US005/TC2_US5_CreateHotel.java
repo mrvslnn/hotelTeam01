@@ -2,6 +2,7 @@ package Tests.US005;
 
 import org.testng.annotations.Test;
 import pages.US005_Page.US_005_QAConcortHotelPage;
+import utilities.Driver;
 
 public class TC2_US5_CreateHotel {
     @Test
@@ -14,7 +15,7 @@ public class TC2_US5_CreateHotel {
         US005QaConcortHotelPage.hotelManagementLinki.click();
         US005QaConcortHotelPage.hotelListLink.click();
         US005QaConcortHotelPage.addHotelLink.click();
-
+        Driver.closeDriver();
 
     }
 }

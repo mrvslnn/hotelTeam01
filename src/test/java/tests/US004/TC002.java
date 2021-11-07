@@ -61,5 +61,6 @@ us004Pages.phoneButonu.sendKeys(Keys.TAB);
 
 
         us004Pages.okButonu.click();
+        Driver.closeDriver();
     }
 }

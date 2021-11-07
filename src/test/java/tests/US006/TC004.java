@@ -20,6 +20,6 @@ public class TC004 {
         qaConcortPage.hotelRooms.click();
         qaConcortPage.roomLocation.sendKeys("USA");
         qaConcortPage.roomSearch.click();
-
+        Driver.closeDriver();
     }
 }

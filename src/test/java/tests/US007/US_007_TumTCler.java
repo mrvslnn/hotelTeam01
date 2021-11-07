@@ -51,7 +51,7 @@ public class US_007_TumTCler {
        us_007_pages.Save.click();
        Thread.sleep(3000);
        us_007_pages.Ok.click();
-
+        Driver.closeDriver();
 
     }
 }

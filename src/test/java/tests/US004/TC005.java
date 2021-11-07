@@ -73,6 +73,7 @@ public class TC005 {
 
 
        // us004Pages.okButonu.click();
+        Driver.closeDriver();
 
     }
 }

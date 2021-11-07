@@ -54,7 +54,7 @@ us004Pages.nameButonu.sendKeys(""+Keys.ENTER);
                 Select select = new Select(us004Pages.idGroupHotelEkle);
                 select.selectByVisibleText("Hotel Type2");
                 Thread.sleep(3000);
-
+                Driver.closeDriver();
                 //us004Pages.saveButonu.click();
             }
         }

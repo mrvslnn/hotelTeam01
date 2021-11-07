@@ -61,6 +61,7 @@ deleteButonu.submit();
         WebElement okButonu = Driver.getDriver().findElement(By.xpath("//button[@data-bb-handler='confirm']"));
         okButonu.click();
         Driver.closeDriver();
+        Driver.closeDriver();
 
     }
 

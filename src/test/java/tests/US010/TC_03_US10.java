@@ -23,7 +23,7 @@ public class TC_03_US10 {
         System.out.println(select.getFirstSelectedOption());
         concortHotelPage.ListofHotelRoomsSearchButonu.click();
         concortHotelPage.ListofHotelRoomsClearButonu.click();
-
+        Driver.closeDriver();
 
     }
 }

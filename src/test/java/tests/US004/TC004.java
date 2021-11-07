@@ -81,5 +81,6 @@ us004Pages.adresButonu.clear();
 //        us004Pages.hotelListLink.click();
 
         us004Pages.okButonu.click();
+        Driver.closeDriver();
     }
 }

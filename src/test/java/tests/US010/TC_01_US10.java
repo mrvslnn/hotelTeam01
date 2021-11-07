@@ -18,6 +18,7 @@ public class TC_01_US10 {
         concortHotelPage.hotelManagementButonu.click();
         concortHotelPage.HotelRoomsButonu.click();
         Assert.assertTrue (concortHotelPage.ListOfHotelRoomsYazisi.isDisplayed());
+        Driver.closeDriver();
 
     }
 

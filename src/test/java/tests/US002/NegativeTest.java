@@ -17,6 +17,7 @@ public class NegativeTest {
         concorthotel.username.sendKeys(ConfigReader.getProperty("CHQAInvalidUsername"));
         concorthotel.password.sendKeys(ConfigReader.getProperty("CHQAValidPassword"));
         concorthotel.submit.click();
+        Driver.closeDriver();
 
     }
 }

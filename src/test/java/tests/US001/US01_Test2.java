@@ -13,6 +13,6 @@ public class US01_Test2 {
     public void test() {
         Driver.getDriver().get(ConfigReader.getProperty("CHQAUrl"));
         Assert.assertTrue(us01Page.navbarMenusu.isDisplayed());
-
+        Driver.closeDriver();
     }
 }
