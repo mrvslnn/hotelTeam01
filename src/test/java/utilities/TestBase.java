@@ -9,28 +9,24 @@ import org.testng.annotations.BeforeClass;
 import java.util.concurrent.TimeUnit;
 
 public abstract class TestBase {
-
+    // abstract yaparak bu class'dan obje olusturulmasinin onune geceriz
     protected WebDriver driver;
-    // abstract yaparak bu classtan obje uretilmesinin onune geceriz
-
-    // Bir testBase classi sadece extends ile inherit ederek kullanacagiz
-    //Dolayisiyala olusturdugumuz driver veriablesi icin protected acces modifieri seciyoruz.
+    // biz test base class'i sadece extends ile inherit ederek kullanacagiz
+    // dolayisiyla olusturdugumuz driver variable'i icin protected access modifier'i seciyoruz
 
 
     @BeforeClass
-    public void setup (){
-
+    public void setup(){
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(19, TimeUnit.SECONDS);
-
-
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
+
+
     @AfterClass
-    public void tearDown() {
-       //driver.quit();
+    public void tearDown(){
+
+        driver.quit();
     }
-
-
 }

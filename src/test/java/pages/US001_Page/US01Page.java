@@ -25,9 +25,10 @@ public class US01Page {
     public WebElement başarılı;
     @FindBy(xpath="//span[text()='Try again please']")
     public WebElement tryAgain;
-
     @FindBy(xpath = "//div[@class='collapse navbar-collapse']")
     public WebElement navbarMenusu;
+
+
 }
 
 

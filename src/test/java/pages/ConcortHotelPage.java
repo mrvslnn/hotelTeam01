@@ -54,6 +54,10 @@ public class ConcortHotelPage {
     @FindBy(xpath = "//*[@id=\"divMessageResult\"]/div/span")
     public WebElement negativeResultMessage;
 
+    public ConcortHotelPage() {
+
+    }
+
 
     //  #### ilker    #####
 
