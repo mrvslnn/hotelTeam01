@@ -1,4 +1,4 @@
-package tests.US005;
+package Tests.US005;
 
 import org.testng.annotations.Test;
 import pages.US005_Page.US_005_QAConcortHotelPage;

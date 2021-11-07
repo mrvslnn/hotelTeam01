@@ -58,9 +58,9 @@ public class QAConcortPage {
 
     public void concortHotelLogin (){
         Driver.getDriver().get(ConfigReader.getProperty("CHQAUrl"));
-        QAConcortPage qaConcortPage=new QAConcortPage();
+        pages.US003_Page.QAConcortPage qaConcortPage=new pages.US003_Page.QAConcortPage();
         qaConcortPage.ilkLoginButton.click();
-        qaConcortPage.userNameBox.sendKeys(ConfigReader.getProperty("CHQAValidusername"));
+        qaConcortPage.userNameBox.sendKeys(ConfigReader.getProperty("CHQAValidUsername"));
         qaConcortPage.passwordBox.sendKeys(ConfigReader.getProperty("CHQAValidPassword"));
         qaConcortPage.ikinciLoginButton.click();
 
