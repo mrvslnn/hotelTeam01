@@ -9,7 +9,7 @@ import utilities.Driver;
 
 public class QAConcortPage {
 
-    WebDriver driver;
+    public WebDriver driver;
     public QAConcortPage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
@@ -60,7 +60,7 @@ public class QAConcortPage {
         Driver.getDriver().get(ConfigReader.getProperty("CHQAUrl"));
         QAConcortPage qaConcortPage=new QAConcortPage();
         qaConcortPage.ilkLoginButton.click();
-        qaConcortPage.userNameBox.sendKeys(ConfigReader.getProperty("CHQAValidusername"));
+        qaConcortPage.userNameBox.sendKeys(ConfigReader.getProperty("CHQAValidUsername"));
         qaConcortPage.passwordBox.sendKeys(ConfigReader.getProperty("CHQAValidPassword"));
         qaConcortPage.ikinciLoginButton.click();
 

@@ -9,7 +9,7 @@ import utilities.Driver;
 public class US_007_Pages {
     public WebDriver driver;
 
-    public US_007_Pages () {
+    public US_007_Pages() {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 

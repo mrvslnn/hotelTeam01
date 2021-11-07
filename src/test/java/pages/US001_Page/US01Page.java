@@ -8,10 +8,10 @@ import utilities.Driver;
 
 public class US01Page {
     public WebDriver driver;
+
     public US01Page(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
-
 
     @FindBy(xpath="//li[@id='navLogon']")
     public WebElement login;
